@@ -1,0 +1,81 @@
+body {
+background: linear-gradient(to bottom right, lightblue, green);
+color: black;
+}
+
+html {
+	margin: 0;
+	height: 100%;
+}
+
+div{
+	position: relative;
+}
+
+
+.container {
+	position: relative;
+	margin: 15% 20% 0 20%;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	border-radius: 30px;
+	background-color: #fff;
+}
+
+.quote {
+	display: block;
+	padding: 15px 15px;
+}
+
+.author {
+	text-align: right;
+	
+
+}
+
+button {
+	color: #fff;
+	border-radius: 10px;
+}
+
+.button-container {
+	display: block;
+	height: 7vh;
+}
+
+li{
+	display: inline-flex;
+
+}
+
+ul{
+	list-style: none;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.twitter {
+	
+	background-color: lightblue;
+	float: left;
+}
+
+
+.random {
+	
+	float: right;
+	background-color: lightblue;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  font-size: 0.8em;
+  color: #fff;
+}	
+
+#tweet {
+	color: #fff;
+	text-decoration: none;
+}
